@@ -1,0 +1,144 @@
+body {
+    font-family: 'Lato', sans-serif;
+   margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.description {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-pera {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    /* border: 8px #E55473 ; */
+    border: none;
+    padding: 20px 43px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #272727;
+}
+
+.header-img {
+    width: 600px;
+    height: 800px;
+    border-color: none;
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+.hot-deal-container{
+    
+    background-color: rgba(158, 38, 64, 0.226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 40px;
+    margin-bottom: 100px; */
+    margin: 100px 0px  ;
+    
+}
+
+.cmn-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.deal-content {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.instra{
+    text-align: center;
+}
+/* .instra-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    
+} */
+.cmn-pera{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;    
+    margin-bottom: 30px;  
+}
+div >img{
+    margin:0px 10px;
+    color: rgba(39, 39, 39, 0.60);
+    /* width: 342px;
+    height: 396px; */
+    justify-content: center;
+    border-radius: 5px ;
+
+}
+.sub-section{
+   background-image: url(floower-img/Rectangle\ 9.png);
+    
+    max-width: 1440px;
+    height: 449px;
+    margin: 80px auto;
+   border-radius: 8px ;
+}
+.input-sec{
+   text-align: center;
+   padding-top: 80PX;
+
+   
+}
+.text-file{
+    background-color: #FFF;
+    width: 700px;
+    height: 64px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 18px ;
+    font-weight:600;
+}
+footer{
+    background-color:  #111010;
+}
+.span-cmn{
+font-size: 48px;
+font-weight: 800;
+}
+.span1{
+    color:  #E55473;;
+}
+.span2{
+    color: #ffffff;
+}
+.f-pera{
+    color: rgba(255, 255, 255, 0.638);
+}
+footer > div {
+    padding: 40px;
+    text-align: center;
+}
