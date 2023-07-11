@@ -48,6 +48,25 @@ body {
     margin-top: 50px;
 }
 
+.img-bunos{
+    display: flex;
+    justify-content: center;
+}
+.img-bunos > span img{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    margin: 0px 10px;
+    
+}
+figcaption{
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20PX;
+}
+
 .hot-deal-container{
     
     background-color: rgba(158, 38, 64, 0.226);
@@ -141,4 +160,12 @@ font-weight: 800;
 footer > div {
     padding: 40px;
     text-align: center;
+}
+div > a{
+    text-decoration: none;
+}
+
+div > a:hover{
+    color: chocolate;
+    text-decoration: underline;
 }
