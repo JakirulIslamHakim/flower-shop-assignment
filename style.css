@@ -169,3 +169,13 @@ div > a:hover{
     color: chocolate;
     text-decoration: underline;
 }
+
+.feedback{
+    background-color: aquamarine;
+    padding: 50px;
+    color: chocolate ;
+    font-size: 20px;
+  max-width: 550px;
+  margin: 5px 0px 30px 30px;
+  border-radius: 10px;
+}
